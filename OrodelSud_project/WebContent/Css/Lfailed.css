@@ -1,0 +1,46 @@
+ html, body{
+	height: 100%;
+	body: 100%;
+}
+
+body {
+	background-color: #d0e1d2;
+}
+
+body #tendina, header  {
+	position:relative;
+	z-index: 1000;
+}
+
+body #h1 {
+	position: relative;
+	z-index: 1;
+}
+
+#ddiv {
+	text-align: center;
+}
+
+#Err {
+	margin-top: 4%;
+	font-size: 300%;
+	color: red;
+	font-family: 'Acme';
+	font-weight: bold;
+}
+
+#testo {
+	font-size: 200%;
+	font-weight: bold;
+	font-family: 'Acme';
+}
+
+#Index {
+	font-size: 120%;
+	border-radius: 5px;
+	background-color: #fad9ad; 
+	margin-top: 2%;
+	font-family: 'Acme';
+	font-weight: bold;
+	width: 20%;
+}
