@@ -1,0 +1,123 @@
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	background-image: linear-gradient(to bottom, #85b4f9, #35d1ff, #2fe7e8, #89f6be, #defc9c);
+}
+
+div {
+	text-align: center;
+}
+
+div img {
+	/*margin-top: 5%;*/
+}
+
+#ddiv {
+	text-align: center;
+	padding-top: 3%;
+}
+#uno {
+	font-family: 'Arial, Helvetica, sans-serif';
+	font-weight: bold;
+	font-size: 500%;
+	color: #FFE18D;
+}
+
+#due {
+	font-family: 'Calligraffitti';
+	font-size: 300%;
+	color: #2d37fb;
+}
+
+.bottone {
+	margin-top: 4%;
+	border-radius: 7px;
+	border: 2px solid #b7b7ff; 
+	background-color: transparent;
+	margin-left: 5%;
+	font-family: 'Arial, Helvetica, sans-serif';
+	font-size: 200%;
+	color: white;
+}
+
+@media screen and (max-width: 790px) {
+	#uno {
+	font-size: 500%;
+	}
+	
+	#due {
+	font-size: 300%;
+	}
+	
+	.bottone {
+	font-size: 300%;
+	}
+}
+
+@media screen and (max-width: 740px) {
+	#uno {
+	font-size: 450%;
+	}
+	
+	#due {
+	font-size: 250%;
+	}
+	
+	.bottone {
+	font-size: 250%;
+	}
+}
+
+
+@media screen and (max-width: 590px) {
+	
+	#uno {
+	font-size: 400%;
+	}
+	
+	#due {
+	font-size: 200%;
+	}
+	
+	.bottone {
+	font-size: 200%;
+	}
+	
+}
+
+
+@media screen and (max-width: 490px) {
+	
+	#uno {
+	font-size: 350%;
+	}
+	
+	#due {
+	font-size: 200%;
+	}
+	
+	.bottone {
+	font-size: 200%;
+	}
+	
+}
+
+
+@media screen and (max-width: 390px) {
+	
+	#uno {
+	font-size: 300%;
+	}
+	
+	#due {
+	font-size: 200%;
+	}
+	
+	.bottone {
+	font-size: 200%;
+	}
+	
+}
