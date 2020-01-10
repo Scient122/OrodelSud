@@ -1,0 +1,360 @@
+html,body {
+	height: 100%;
+	width: 100%;
+	
+}
+
+
+
+body {
+	background-color: #c2f3f3;
+}
+
+body #tendina, header  {
+	position:relative;
+	z-index: 1000;
+}
+
+body {
+	position: relative;
+	z-index: 1;
+}
+
+#cataside {
+	height: 100%;
+	width: 20%;
+	float: left;
+	background-color: #f8cf98;
+}
+
+#cataside #ulaside {
+	margin-left: 20%;
+	margin-top: 5%;
+	list-style-type: disc;
+	text-decoration: none;
+	font-family: 'Comfortaa', cursive;
+	font-size: 150%;
+}
+
+#cataside #specialoffers {
+	list-style-image: url('../Immagini/Specialoffers.png');
+}
+
+#cataside a:hover {
+	color:#009100;
+	transition:0.4s;
+}
+
+#cataside #specialoffers a:hover {
+	color:red;
+	transition: 0.4s;
+}
+#cataside #latticini {
+	list-style-image: url('../Immagini/Latte.png');
+}
+#cataside #formaggi {
+	list-style-image: url('../Immagini/Formaggio.png');
+}
+#cataside #sottovuoto {
+	list-style-image: url('../Immagini/Sottovuoto.png');
+}
+#cataside #pasta {
+	list-style-image: url('../Immagini/Pasta.png');
+}
+#cataside #olio {
+	list-style-image: url('../Immagini/Olio.png');
+}
+#cataside #vino {
+	list-style-image: url('../Immagini/Vino.png');
+}
+
+#cataside #ulaside li {
+	padding-top: 15%;
+}
+
+#cataside a {
+	text-decoration: none;
+	color: black;
+}
+
+#Contenitore {
+	height: 95%;
+	width: 100%;
+	background-color: #c2f3f3;
+}
+
+#Contenitore div#Prodotto {
+	width: 100%;
+	height: 20%;
+}
+
+
+
+#Contenitore img {
+	width: 20%;
+	height: 100px;
+	float:left;
+	margin-left: 2%;
+	/*border-radius: 40%;
+	border: 2px solid #eafa2c;*/
+}
+/*
+#Contenitore img:hover {
+	width: 20%;
+	height: 100px;
+	float:left;
+	margin-left:2%;
+	transition: 1.2s;
+	border: 3px solid #ffff06;
+	border-radius:20%;
+	border-radius:10%;
+	border-radius:5%;
+	border-radius:3%;
+}*/
+
+#Contenitore #h1 {
+	text-align: center;
+	font-family: 'Righteous', cursive;
+	font-size: 100%;
+}
+
+#Contenitore #informazioni {
+	width: 50%;
+}
+
+#Contenitore #infotesto {
+	margin-top: 2%;
+	font-family: 'Comfortaa', cursive;
+	font-size: 120%;
+}
+
+#Contenitore #infotesto:hover {
+	font-weight: bold;
+}
+
+#prodottobottone {
+	margin-right: 10%;
+	padding-top: 0.4%;
+	width: 15%;
+	border-radius: 10%;
+	float:right;
+	background-color: #6be2e2;
+	border: 0 white;
+	color: #6460ff;
+	font-weight: bold;
+}
+
+#prodottobottone:hover {
+	transition: 0.8s;
+	font-family: 'Inconsolata', monospace;
+	color: #00ae00;
+	font-weight: bold;
+}
+
+#prodottobottone img {
+	margin-top: 1%;
+	margin-bottom: 1%;
+	float: right;
+	width: 10%;
+	height: 10%;
+	border-color: transparent;
+}
+
+#divbottoni {
+	margin-right: 15%;
+	margin-bottom: 0.5%;
+	padding-top: 0.4%;
+	/*width: 15%;*/
+	border-radius: 10%;
+	text-align: center;
+	border: 0 white;
+	color: #6460ff;
+	font-weight: bold;
+}
+
+#divbottoni img {
+	margin-top: 1%;
+	margin-bottom: 1%;
+	float: right;
+	width: 10%;
+	height: 10%;
+	border-color: transparent;
+}
+
+#divbottoni #left {
+	float:left;
+}
+
+.indietro {
+	display:none;
+}
+
+
+
+@media screen and (min-width: 360px) and (max-width: 1460px) {
+
+#cataside #specialoffers {
+	list-style-image: none;
+	list-style-type: disc;
+}
+
+#cataside #latticini {
+	list-style-image: none;
+	list-style-type: disc;
+}
+#cataside #formaggi {
+	list-style-image: none;
+	list-style-type: disc;
+}
+#cataside #sottovuoto {
+	list-style-image: none;
+	list-style-type: disc;
+}
+#cataside #pasta {
+	list-style-image: none;
+	list-style-type: disc;
+}
+#cataside #olio {
+	list-style-image: none;
+	list-style-type: disc;
+}
+#cataside #vino {
+	list-style-image: none;
+	list-style-type: disc;
+}
+
+#cataside ul li{
+	font-size: 40%;
+}
+	
+#cataside #ulaside li {
+	padding-top: 100px;
+}
+
+#prodottobottone {
+	font-size: 14px;
+	width: 80px;
+	margin-top: 6%;
+}
+
+#Contenitore img {
+	width: 30%;
+	height: 150px;
+	float:left;
+	margin-left: 2%;
+	border-radius: 40%;
+	border: 2px solid #eafa2c;
+}
+
+#prodottobottone img {
+	margin-top: 1%;
+	margin-bottom: 1%;
+	float: right;
+	width: 10px;
+	height: 10px;
+	border-color: transparent;
+}
+}
+
+#Contenitore #infotesto {
+	margin-top: 2%;
+	font-family: 'Comfortaa', cursive;
+	font-size: 100%;
+}
+	
+}
+
+@media screen and (min-width: 770px) and (max-width: 970px) {
+
+#cataside ul li{
+	font-size: 80%;
+}
+#cataside #ulaside li {
+	padding-top: 70px;
+}
+}
+
+@media screen and (min-width: 970px) and (max-width: 1270px) {
+	#cataside ul li{
+	font-size: 80%;
+}
+	
+#cataside #ulaside li {
+	padding-top: 40px;
+}
+}
+
+@media screen and (min-width: 1270px) and (max-width: 1470px) {
+	#cataside ul li{
+	font-size: 100%;
+}
+	
+#cataside #ulaside li {
+	padding-top: 40px;
+}
+}
+
+@media screen and (min-width: 935px) and (max-width: 1235px) {
+	
+	#cataside ul li{
+	font-size: 90%;
+}
+	
+#cataside #ulaside li {
+	padding-top: 100px;
+}
+
+#prodottobottone {
+	font-size: 18px;
+	width: 100px;
+	margin-top: 2%;
+}
+
+#Contenitore img {
+	width: 30%;
+	height: 150px;
+	float:left;
+	margin-left: 2%;
+	border-radius: 40%;
+	border: 2px solid #eafa2c;
+}
+
+#prodottobottone img {
+	margin-top: 1%;
+	margin-bottom: 1%;
+	float: right;
+	width: 20px;
+	height: 20px;
+	border-color: transparent;
+}
+
+#Contenitore #infotesto {
+	margin-top: 2%;
+	font-family: 'Comfortaa', cursive;
+	font-size: 120%;
+}
+}
+
+@media screen and (min-width: 1310px) and (max-width: 1470px) {
+	#prodottobottone {
+	margin-right: 10%;
+	padding-top: 0.4%;
+	width: 15%;
+	border-radius: 10%;
+	float:right;
+	background-color: #6be2e2;
+	border: 0 white;
+	color: #6460ff;
+	font-weight: bold;
+}
+
+#prodottobottone img {
+	margin-top: 1%;
+	margin-bottom: 1%;
+	float: right;
+	width: 10%;
+	/*height: 10%;*/
+	border-color: transparent;
+}
+} 
+
