@@ -5,11 +5,13 @@ import java.sql.SQLException;
 import java.util.HashMap;
 import java.util.Set;
 
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 import Bean.AdminBean;
 import Bean.AziendaBean;
@@ -17,8 +19,6 @@ import Bean.ClienteBean;
 import Gestione_account.AdminDAO;
 import Gestione_account.AziendaDAO;
 import Gestione_account.UserDAO;
-import Servlet.HttpSession;
-import Servlet.RequestDispatcher;
 
 
 @WebServlet("/LoginServlet_test")

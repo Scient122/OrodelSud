@@ -1,11 +1,15 @@
 package JUnit;
 
-import java.io.IOException; 
+import java.io.IOException;
+import java.sql.Date;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+
 import Gestione_account.*;
 import Bean.*;
 
@@ -16,11 +20,9 @@ public class UpdateServlet_test extends HttpServlet {
   
     public UpdateServlet_test() {
         super();
-        // TODO Auto-generated constructor stub
     }
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
 		AdminDAO interfaccia = new AdminDAO_Stub();
 		UserDAO interfaccia1 = new UserDAO_Stub();
 		AziendaDAO interfaccia2 = new AziendaDAO_Stub();
@@ -212,7 +214,6 @@ public class UpdateServlet_test extends HttpServlet {
 
 	
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
 		doGet(request, response);
 	}
 
