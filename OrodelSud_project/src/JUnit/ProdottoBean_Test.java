@@ -38,6 +38,8 @@ public class ProdottoBean_Test extends TestCase {
 	
 	public static void main(String [] args) {
 		junit.textui.TestRunner.run(ProdottoBean_Test.class);
+		
+		
 
 	}
 }
