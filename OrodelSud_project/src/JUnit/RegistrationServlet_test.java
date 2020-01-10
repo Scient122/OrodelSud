@@ -1,7 +1,12 @@
 package JUnit;
 
 import java.io.IOException;
+import java.sql.Date;
+import java.sql.SQLException;
+
 import Bean.*;
+
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -117,8 +122,6 @@ public class RegistrationServlet_test extends HttpServlet {
 				dispatcher.forward(request, response);
 			}
 		}
-	}
-		
 	}
 
 	
