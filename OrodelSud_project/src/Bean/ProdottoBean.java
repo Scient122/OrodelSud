@@ -12,6 +12,7 @@ public class ProdottoBean {
 	
 	public String getCodice() {
 		return codice;
+		
 	}
 	public void setCodice(String codice) {
 		this.codice = codice;
