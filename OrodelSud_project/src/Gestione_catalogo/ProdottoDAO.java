@@ -9,7 +9,7 @@ import java.util.*;
 import Bean.ProdottoBean;
 import Servlet.Utilities;
 
-public class ProdottoDAO {
+public class ProdottoDAO { 
 	
 	public synchronized ArrayList <ProdottoBean> Cinqueprodotti(int contatore) throws SQLException,IOException {
 		String query="SELECT * FROM prodotto";

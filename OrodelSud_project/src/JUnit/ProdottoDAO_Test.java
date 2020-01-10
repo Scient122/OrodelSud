@@ -15,7 +15,7 @@ public class ProdottoDAO_Test extends TestCase {
 		ProdottoBean_Stub prodotto = new ProdottoBean_Stub();
 		
 		try {
-			interfaccia.aggiunta(prodotto);
+			interfaccia.aggiunta(prodotto); 
 			assertNotNull(interfaccia.unprodotto(prodotto.getNome_prodotto()));
 			assertNotNull(interfaccia.categoriaprodotto(prodotto.getCategoria(), 1));
 			assertNotNull(interfaccia.prodottofferta(1));
