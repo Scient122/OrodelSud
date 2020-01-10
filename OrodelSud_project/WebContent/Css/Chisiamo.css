@@ -1,0 +1,73 @@
+/* html, body {
+	height: 100%;
+	width: 100%;
+} */
+
+body {
+background-color: #c6e1d8;}
+	
+body #tendina, header  {
+	position:relative;
+	z-index: 1000;
+}
+
+body {
+	position: relative;
+	z-index: 1;
+}
+	
+#chi {
+	text-align: center;
+	color: #2626ff;
+	font-size: 400%;
+	font-weight: bold;
+	font-family: "Arial Black", Gadget, sans-serif;
+	/*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
+}
+
+#ddiv {
+	text-align: center;
+	width: 50%;
+	margin-top: 1%;
+	/*border: 1px solid #e4f8fc;*/
+	border-radius: 10px;
+	margin-left: 25%;
+	margin-right: 25%;
+	/*
+	-webkit-box-shadow: 0px 4px 43px 18px rgba(220,245,241,1);
+	-moz-box-shadow: 0px 4px 43px 18px rgba(220,245,241,1);
+	box-shadow: 0px 4px 43px 18px rgba(220,245,241,1);
+	*/
+}
+
+#testo {
+	font-size: 200%;
+	text-align: center;
+	font-family: 'Arial, Helvetica, sans-serif';
+	font-weight: bold;
+	background-color: transparent;
+}
+
+@media screen and (max-width: 950px) {
+	
+	#testo {
+	font-size: 120%;
+	}
+}
+
+
+@media screen and (max-width: 620px) {
+	
+	#testo {
+	font-size: 100%;
+	}
+	
+}
+
+@media screen and (max-width: 420px) {
+	
+	#testo {
+	font-size: 80%;
+	}
+	
+}
