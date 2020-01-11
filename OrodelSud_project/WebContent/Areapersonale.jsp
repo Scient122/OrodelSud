@@ -40,7 +40,7 @@ else if (session.getAttribute("clienteBean")!=null){
 <% } %>
 <aside id="asidepersonale"> 
 <ul id="ulaside"> 
-<% if(session.getAttribute("userBean")!=null || session.getAttribute("aziendaBean")!=null) { %>
+<% if(session.getAttribute("userBean")!=null && session.getAttribute("aziendaBean")==null) { %>
 <li id="ituoirdini"> <a href="FatturaServlet"> I tuoi ordini </a> </li>
 <% } %>
 <% if(session.getAttribute("adminBean")!=null || session.getAttribute("aziendaBean")!=null){ %>
@@ -48,7 +48,9 @@ else if (session.getAttribute("clienteBean")!=null){
 <div id="menucontrollopannello"> 
 <ul> 
 	<li> <a href="ProdottoServlet?admin=yes"> Aggiorna il catalogo </a> </li>
+	<% if (session.getAttribute("aziendaBean")==null) { %>
 	<li> <a href="Visualizzagliordini.jsp"> Visualizza gli ordini </a> </li>
+	<% } %>
 	<li> <a href="Nuovoprodotto.jsp"> Aggiungi un nuovo prodotto </a> </li>
 </ul>
 </div> 
