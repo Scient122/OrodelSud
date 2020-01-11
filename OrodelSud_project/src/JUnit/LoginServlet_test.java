@@ -38,18 +38,18 @@ public class LoginServlet_test extends HttpServlet {
 		UserDAO interfaccia=new UserDAO_Stub();
 		AdminDAO interfaccia1 = new AdminDAO_Stub();
 		AziendaDAO interfaccia2 = new AziendaDAO_Stub();
-		ClienteBean utente=null;
-		AdminBean admin = null;
-		AziendaBean azienda = null;
+		ClienteBean_Stub utente=null;
+		AdminBean_Stub admin = null;
+		AziendaBean_Stub azienda = null;
 		HashMap <String, String> carte = new HashMap<String,String>();
 		Set <String> numeri_carte = null;
 
 		try {
-			admin=interfaccia1.login(email, password);
-			azienda=interfaccia2.login(email, password);
+			admin=(AdminBean_Stub) interfaccia1.login(email, password);
+			azienda=(AziendaBean_Stub) interfaccia2.login(email, password);
 
 			if (admin==null && azienda==null) {
-				utente=interfaccia.login(email,password);
+				utente=(ClienteBean_Stub) interfaccia.login(email,password);
 				if (utente!=null) {
 					carte = interfaccia.getcreditcards(utente);
 					numeri_carte=carte.keySet();
