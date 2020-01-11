@@ -1,0 +1,211 @@
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	background-color: #c2f3f3;
+}
+
+body #tendina, header  {
+	position:relative;
+	z-index: 1000;
+}
+
+body {
+	position: relative;
+	z-index: 1;
+}
+
+
+#cataside {
+	height: 100%;
+	width: 20%;
+	float: left;
+	background-color: #f8cf98;
+}
+
+#cataside #ulaside {
+	margin-left: 20%;
+	margin-top: 5%;
+	list-style-type: disc;
+	text-decoration: none;
+	font-family: 'Comfortaa', cursive;
+	font-size: 150%;
+}
+
+#cataside #specialoffers {
+	list-style-image: url('../Immagini/Specialoffers.png');
+}
+
+#cataside #latticini {
+	list-style-image: url('../Immagini/Latte.png');
+}
+#cataside #formaggi {
+	list-style-image: url('../Immagini/Formaggio.png');
+}
+#cataside #sottovuoto {
+	list-style-image: url('../Immagini/Sottovuoto.png');
+}
+#cataside #pasta {
+	list-style-image: url('../Immagini/Pasta.png');
+}
+#cataside #olio {
+	list-style-image: url('../Immagini/Olio.png');
+}
+#cataside #vino {
+	list-style-image: url('../Immagini/Vino.png');
+}
+
+#cataside #ulaside li {
+	padding-top: 15%;
+}
+
+#cataside a {
+	text-decoration: none;
+	color: black;
+}
+
+#Informazioni {
+	width: 100%;
+	height: 100%;
+}
+
+#Informazioni img {
+	display:block;
+	margin:auto;
+	
+}
+
+#Informazioni #h1 {
+	font-weight: bold;
+	text-align: center;
+	font-family: 'Righteous', cursive;
+	font-size: 200%;
+}
+
+/*#Informazioni #immagineprodotto {
+	width: 15%;
+	height: 45%;
+}*/
+
+#Informazioni p {
+	margin-left: 2%;
+	font-family: 'Comfortaa', cursive;
+	font-size: 120%;	
+}
+
+#Informazioni #aggiungicarrello {
+	background-color: #f0c14b;
+	border: 0px white;
+	border-radius: 10%;
+	font-family: 'Righteous', cursive;
+	font-size: 130%;
+	padding-top: 0.5%;
+	display:block;
+	margin:auto;
+}
+
+#Informazioni #aggiungicarrello img{
+	position: relative;
+	width: 10%;
+	height: 10%;
+	float: left;
+}
+
+#Informazioni #inputnumber {
+	font-family: 'Righteous', cursive;
+	border-radius: 10%;
+	border: 0px white;
+	font-size: 130%;
+	width: 16%;
+	background-color: #f8e1a5;
+}
+
+footer{
+	margin-top: 2%;
+}
+
+#cataside {
+	height: 100%;
+}
+
+@media screen and (max-width: 1400px) {
+	 #Informazioni #inputnumber::placeholder {
+         color: transparent;
+}
+}
+
+@media screen and (min-width: 361px) and (max-width: 1300px) {
+	
+#cataside #specialoffers {
+	list-style-image: none;
+	list-style-type: disc;
+}
+
+#cataside #latticini {
+	list-style-image: none;
+	list-style-type: disc;
+}
+#cataside #formaggi {
+	list-style-image: none;
+	list-style-type: disc;
+}
+#cataside #sottovuoto {
+	list-style-image: none;
+	list-style-type: disc;
+}
+#cataside #pasta {
+	list-style-image: none;
+	list-style-type: disc;
+}
+#cataside #olio {
+	list-style-image: none;
+	list-style-type: disc;
+}
+#cataside #vino {
+	list-style-image: none;
+	list-style-type: disc;
+}
+}
+
+@media screen and (max-width: 880px) {
+	#cataside #ulaside {
+	font-size: 100%;}
+	
+	#cataside #ulaside li {
+	padding-top: 100px;}
+
+}
+
+@media screen and (max-width:590px) {
+	#cataside #ulaside {
+	font-size: 70%;
+	font-weight: bold;}
+	
+	#cataside #ulaside li {
+	padding-top: 100px;}
+}
+
+@media screen and (min-width:361px) and (max-width: 590px) {
+	#cataside #ulaside {
+	font-size: 55%;
+	font-weight: bold;}
+	
+	#cataside #ulaside li {
+	padding-top: 100px;}
+}
+
+@media screen and (min-width: 750px) and (max-width:1020px) {
+	#Informazioni #immagineprodotto {
+	width: 30%;
+	height: 20%;
+}
+}
+
+@media screen and (min-width: 361px) and (max-width: 750px) {
+	#Informazioni #immagineprodotto {
+	width: 40%;
+	height: 20%;
+}
+}
