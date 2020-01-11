@@ -1,4 +1,4 @@
-package Junit;
+package JUnit;
 
 import java.io.IOException;
 
@@ -14,11 +14,11 @@ import Gestione_catalogo.ProdottoDAO;
 
 
 @WebServlet("/OneProductServlet_test")
-public class OneProductServlet extends HttpServlet {
+public class OneProductServlet_test extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
 
-    public OneProductServlet() {
+    public OneProductServlet_test() {
         super();
     }
 
@@ -37,7 +37,7 @@ public class OneProductServlet extends HttpServlet {
 		
 		
 		ProdottoBean prodotto = null;
-		ProdottoDAO interfaccia = new ProdottoDAO_stub();
+		ProdottoDAO interfaccia = new ProdottoDAO_Stub();
 		try {
 		prodotto=interfaccia.unprodotto(codice);
 		}

@@ -16,11 +16,11 @@ import Gestione_catalogo.ProdottoDAO;
 
 
 @WebServlet("/AddCartServlet_test")
-public class AddCartServlet extends HttpServlet {
+public class AddCartServlet_test extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     
-    public AddCartServlet() {
+    public AddCartServlet_test() {
         super();
     }
 
@@ -30,7 +30,7 @@ public class AddCartServlet extends HttpServlet {
 		HttpSession session = request.getSession();
 		Carrello carrello=(Carrello) session.getAttribute("carrello");
 		String titolo = request.getParameter("titolo");
-		ProdottoDAO interfaccia = new ProdottoDAO_stub();
+		ProdottoDAO interfaccia = new ProdottoDAO_Stub();
 		ProdottoBean prodotto = null;
 		int quantita = Integer.parseInt(request.getParameter("quantita"));
 		

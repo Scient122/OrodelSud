@@ -22,12 +22,12 @@ import Gestione_catalogo.ProdottoDAO;
 import java.util.*;
 import Model.*;
 
-@WebServlet("/ProdottoServlet")
-public class ProdottoServlet extends HttpServlet {
+@WebServlet("/ProdottoServlet_Test")
+public class ProdottoServlet_Test extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
 
-	public ProdottoServlet() {
+	public ProdottoServlet_Test() {
 		super();
 		
 	}
@@ -143,9 +143,5 @@ public class ProdottoServlet extends HttpServlet {
 	public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		doGet(request, response);
 	}
-
-}
-
-public class ProdottoServlet_Test {
 
 }
