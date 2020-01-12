@@ -10,6 +10,7 @@ public class EffettuazioneBean {
 	
 	public String getEmail() {
 		return email;
+		
 	}
 
 

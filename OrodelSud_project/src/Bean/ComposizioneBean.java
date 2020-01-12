@@ -10,6 +10,7 @@ public class ComposizioneBean {
 	
 	public String getCodice_prodotto() {
 		return codice_prodotto;
+		
 	}
 	public void setCodice_prodotto(String codice_prodotto) {
 		this.codice_prodotto = codice_prodotto;

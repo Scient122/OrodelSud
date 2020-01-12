@@ -34,6 +34,7 @@ public class FatturaBean_test extends TestCase {
 		assertEquals(20.0,fattura.getTotale_imposta());
 		assertEquals("Viale Europa",fattura.getVia());
 		
+		
 	}
 	
 	public static void main(String[] args) {

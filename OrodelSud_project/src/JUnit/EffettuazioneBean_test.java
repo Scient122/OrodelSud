@@ -21,6 +21,7 @@ public static void main (String args[]) {
 		
 		junit.textui.TestRunner.run(AdminBean_Test.class);
 		
+		
 	}
 
 }

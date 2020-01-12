@@ -10,6 +10,7 @@ public class FatturaBean {
 	
 	public String getN_documento() {
 		return n_documento;
+		
 	}
 	public void setN_documento(String n_documento) {
 		this.n_documento = n_documento;
