@@ -1,0 +1,43 @@
+html, body {
+	height: 100%;
+	widht: 100%;
+}
+
+body {
+	background-color: #d1dfef;
+}
+
+
+body #tendina, header  {
+	position:relative;
+	z-index: 1000;
+}
+
+body #h1 {
+	position: relative;
+	z-index: 1;
+}
+
+#h1 {
+	text-align: center;
+	font-size: 250%;
+	font-family: 'Galada', Times;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	margin-top: 1%;
+	color: #1d17db;
+	z-index: 1;
+}
+
+#Ricetta {
+	margin-left: 1%;
+	font-family: 'Advent Pro', Times;
+	text-align: justify;
+	text-align: left;
+	font-size: 150%;
+	font-weight: bold;
+}
+
+#Ricetta img {
+	width: 50%;
+	height: 50%;
+}

@@ -1,0 +1,219 @@
+html, body {
+	width: 100%;
+	height: 100%;
+} 
+
+body {
+	background-color: #ddeaea;
+}
+
+body #tendina, header  {
+	position:relative;
+	z-index: 1000;
+}
+
+body #h1 {
+	position: relative;
+	z-index: 1;
+}
+
+#h1 {
+	text-align: center;
+	font-size: 250%;
+	font-family: 'Galada', Times;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	margin-top: 1%;
+	color: #1d17db;
+	z-index: 1;
+}
+
+#Esplora {
+	margin-left: 0.5%;
+	font-family: 'Oregano', Times;
+	width: 40%;
+	color: #00539C;
+	font-size: 250%;
+}
+
+
+#Esplora a {
+	color: #00539C;
+	font-size: 70%;
+	text-decoration: none;
+	font-family: 'Love Ya Like A Sister', Times;
+	padding-left:2%;
+}
+
+#Esplora a:hover {
+	color: #4aa9ff;
+}
+
+#imgAbruzzo {
+	width: 15%;
+	height: 10%;
+	float: left;
+}
+
+#imgMolise {
+	width: 15%;
+	height: 10%;
+	float: left;
+}
+
+
+#imgCampania {
+	width: 15%;
+	height: 10%;
+	float: left;
+}
+
+
+#imgPuglia {
+	width: 15%;
+	height: 10%;
+	float: left;
+}
+
+#imgBasilicata {
+	width: 15%;
+	height: 10%;
+	float: left;
+}
+
+#imgCalabria {
+	width: 15%;
+	height: 10%;
+	float:left;
+}
+
+#imgSicilia {
+	width: 15%;
+	height: 10%;
+	float: left;
+}
+
+#Generale {
+	text-align: center;
+	font-family: 'GFS Didot', Times;
+	font-size: 100%;
+	/*border: 1px solid red;*/
+	position: relative;
+	z-index: 15;
+	top: 50%;
+	left: 50%;
+	width: 250px;
+	height:500px;
+	margin: -250px 0 0 -150px;
+	/*
+	width: 300px;
+	height:500px;
+	margin: -250px 0 0 -150px;
+	*/
+}
+
+#Generale div {
+	display: none;
+}
+
+#Generale div a {
+	text-decoration: none;
+}
+
+#Generale .nomericetta {
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	font-weight: bold;
+	text-align:center;
+	font-family: 'Aclonica', Times;
+	font-size: 200%;
+	color: #FE840E;
+}
+
+#Generale .descrizione {
+	font-family: 'Advent Pro', Times;
+	text-align: justify;
+	text-align: left;
+	font-size: 150%;
+	font-weight: bold;
+	
+}
+
+#Generale div img {
+	height: 60%;
+	width: 60%;
+}
+
+.titolo {
+	text-align:center;
+	font-size: 150%;
+	font-family: 'Happy Monkey', Times;
+	width: 80%;
+	padding-top: 10%;
+}
+
+.dispari {
+	color: #034F84;
+	font-weight: bold;
+	
+	/*color: blue;*/
+	/*background-color: white;*/
+}
+
+.pari {
+	/*background-color: blue;*/
+	color: #dddd00;
+	font-weight: bold;
+}
+
+
+
+#Generale div {
+	margin-top: 4%;
+	/*border: 3px solid green;*/
+}	
+
+#Generale button {
+	margin-left:50%;
+	width: 70%;
+	background-color: white;
+	display: inline;
+	border: 0 white;
+	color: #62acb3;
+	font-weight: bold;
+	font-family: 'Niramit', Times;
+}
+
+#Generale button img {
+	margin-top: 2%;
+	float: right;
+	width: 10%;
+	height: 5%;
+}
+
+@media screen and (max-width: 1171px) {
+	#Esplora {
+	font-size: 230%;
+	}
+	#Esplora a {
+	font-size:70%;
+	}
+}
+
+@media screen and (max-width: 1078px) {
+	#Esplora {
+	font-size: 210%;
+	}
+	#Esplora a {
+	font-size:70%;
+	}
+}
+
+@media screen and (min-width: 894px) and (max-width: 1078px) {
+	#Esplora {
+	font-size: 170%; 
+	width: 80%;
+	}
+	#Esplora a {
+	font-size: 60%;
+	}
+}
+	
