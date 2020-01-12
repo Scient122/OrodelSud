@@ -1,0 +1,97 @@
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	background-color: #e4e4e4;
+}
+
+body #tendina, header  {
+	position:relative;
+	z-index: 1000;
+}
+
+body {
+	position: relative;
+	z-index: 1;
+}
+
+#divgeneralepannello {
+	height: 100%;
+	width: 100%;
+	font-family:  'Raleway', sans-serif;
+	font-size: 120%;
+}
+
+#titoloareapersonale {
+	font-family: 'Courgette', cursive;
+	font-size:200%;
+	text-align: center;
+}
+
+#divgeneralepannello span {
+	font-size: 150%;
+	margin-left:1%;
+}
+
+#modificadati, #confermabottonearea  {
+	margin-left:5%;
+	margin-top:0.5%;
+	font-size: 140%;
+	border-top-right-radius: 90px;
+	border-bottom-left-radius: 90px;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.16);
+	background-color: #ff6f6f;
+	width: 350px;
+	height: 40px;
+	font-family: 'Electrolize', sans-serif;
+	
+}
+
+.modifcaspan, .inputtextarea, #confermabottonearea, textarea{
+	display:none;
+}
+
+#divbottoniareapersonale {
+	text-align:center;
+}
+
+#menucontrollopannello {
+	display:none;
+}
+
+#pannellodicontrollo:hover #menucontrollopannello {
+	display: block;
+}
+
+#menucontrollopannello li {
+	list-style-type: circle;
+}
+
+#divgeneralepannello img {
+	width: 200px;
+	height: 300px;
+}
+
+input[type="checkbox"]{
+  width: 30px; 
+  height: 30px;
+}
+
+#modificaiva a {
+	text-decoration: none;
+	font-weigth: bold;
+	font-size: 170%;
+}
+
+#modificaiva {
+	height: 100%;
+	width: 100%;
+	font-family: 'Raleway', sans-serif;
+	font-size: 120%;
+}
+
+input[name="cambioiva"]{
+  width: 900px;
+}
