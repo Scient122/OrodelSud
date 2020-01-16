@@ -19,6 +19,7 @@ public class ClienteBean_Stub extends ClienteBean{
 		this.email = email;
 	}
 
+	
 	public String getPassword() {
 		return password;
 	}
