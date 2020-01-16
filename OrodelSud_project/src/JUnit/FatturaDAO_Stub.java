@@ -27,9 +27,10 @@ public class FatturaDAO_Stub extends FatturaDAO{
 		
 	}
 
-	public synchronized void inserimento (FatturaBean fattura) throws SQLException, IOException {
+	public synchronized boolean inserimento (FatturaBean fattura) throws SQLException, IOException {
 
 		System.out.println("Inserimento");
+		return true;
 	}
 
 	public synchronized ArrayList<FatturaBean> getfatture (String email) throws SQLException, IOException {

@@ -9,6 +9,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 import Bean.ClienteBean;
 import Bean.ComposizioneBean;
@@ -21,7 +22,7 @@ import Gestione_catalogo.ProdottoDAO;
 import Gestione_ordini.ComposizioneDAO;
 import Gestione_ordini.EffettuazioneDAO;
 import Gestione_ordini.FatturaDAO;
-import Servlet.HttpSession;
+
 
 
 @WebServlet("/ConfermaServlet_test")

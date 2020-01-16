@@ -16,10 +16,10 @@ public ComposizioneDAO_Stub() {
 		
 	}
 	
-	public synchronized void aggiunta (ComposizioneBean comp) throws SQLException {
+	public synchronized boolean aggiunta (ComposizioneBean comp) throws SQLException {
 		
 		System.out.println("aggiunta");
-		
+		return true;
 	}
 	
 public synchronized ArrayList<ComposizioneBean> getprodotti (String n_documento) throws SQLException, IOException {

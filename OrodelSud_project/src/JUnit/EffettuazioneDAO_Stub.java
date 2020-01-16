@@ -9,9 +9,10 @@ import Model.DriverMaagerConnectionPool;
 
 public class EffettuazioneDAO_Stub extends EffettuazioneDAO{
 	
-public synchronized void aggiunta (EffettuazioneBean eff) throws SQLException {
+public synchronized boolean aggiunta (EffettuazioneBean eff) throws SQLException {
 		
 		System.out.println("aggiunta");
+		return true;
 		
 		
 	}

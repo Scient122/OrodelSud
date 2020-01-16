@@ -16,7 +16,7 @@ public class ComposizioneDAO {
 		
 	}
 	
-	public synchronized void aggiunta (ComposizioneBean comp) throws SQLException {
+	public synchronized boolean aggiunta (ComposizioneBean comp) throws SQLException {
 		
 		String query = "INSERT INTO composizione (codice_prodotto, numero_fattura, quantita_acquistate, iva_acquisto, prezzo_acquisto, data_acquisto, nome_prodotto) values (?, ?, ?, ?, ?, ?,?)";
 		
@@ -36,6 +36,7 @@ public class ComposizioneDAO {
 			statement.setDate(6, comp.getData());
 			statement.setString(7, comp.getNome_prodotto());
 			statement.executeUpdate();
+			return true;
 			
 		}
 		finally {

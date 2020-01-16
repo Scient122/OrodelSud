@@ -55,7 +55,7 @@ public class FatturaDAO {
 		}
 	}
 
-	public synchronized void inserimento (FatturaBean fattura) throws SQLException, IOException {
+	public synchronized boolean inserimento (FatturaBean fattura) throws SQLException, IOException {
 
 		String query = "INSERT INTO fattura (n_documento,data_fattura,totale_imponibile, totale_imposta, costo_totale, via, destinatario, status) values (?,?,?,?,?,?,?,?)";
 		PreparedStatement statement = null;
@@ -75,6 +75,7 @@ public class FatturaDAO {
 			statement.setString(7, fattura.getDestinatario());
 			statement.setString(8, fattura.getStatus());
 			statement.executeUpdate();
+			return true;
 		}
 		finally {
 			DriverMaagerConnectionPool.releaseConnection(connection);

@@ -19,7 +19,7 @@ if(session.getAttribute("userBean")!=null||session.getAttribute("adminBean")!=nu
 
  
 <div id="benvenuto">
-<a href="Index.jsp"> 
+<a href="index.jsp"> 
 <img src="Immagini/Logoazzurrotagliato.png">
 </a>
 <h2 id="h2"> Benvenuto, crea un account</h2>

@@ -133,7 +133,7 @@ Carrello
 <input id="catalogo" type="image" src="Immagini/Catalogo.png">
 <% } %>
 Catalogo
-
+<% if (session.getAttribute("aziendaBean")==null) { %>
 <div id="tendina">
 	<ul>
 		<li> <a href="CategoriaProdottoServlet?categoria=Pasta"> Pasta </a></li>
@@ -145,7 +145,7 @@ Catalogo
 		<li> <a href="ProdottoOffertaServlet"> Offerte </a> </li>
 	</ul>
 </div>
-
+<% } %>
 </button> 
 </li>
 &nbsp;&nbsp;&nbsp;

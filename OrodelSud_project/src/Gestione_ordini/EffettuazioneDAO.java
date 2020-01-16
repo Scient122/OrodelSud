@@ -9,7 +9,7 @@ import Model.DriverMaagerConnectionPool;
 
 public class EffettuazioneDAO {
 	
-	public synchronized void aggiunta (EffettuazioneBean eff) throws SQLException {
+	public synchronized boolean aggiunta (EffettuazioneBean eff) throws SQLException {
 		
 		String query = "INSERT INTO effettuazione (email_cliente, numero_documento) values (?,?)";
 		
@@ -25,6 +25,7 @@ public class EffettuazioneDAO {
 			statement.setString(2, eff.getNumero());
 			
 			statement.executeUpdate();
+			return true;
 		}
 		finally {
 			DriverMaagerConnectionPool.releaseConnection(connection);

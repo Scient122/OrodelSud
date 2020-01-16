@@ -5,19 +5,20 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.HashMap;
 
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 import Bean.ClienteBean;
 import Bean.ComposizioneBean;
 import Bean.FatturaBean;
 import Gestione_ordini.ComposizioneDAO;
 import Gestione_ordini.FatturaDAO;
-import Servlet.HttpSession;
-import Servlet.RequestDispatcher;
+
 
 
 @WebServlet("/FatturaServlet_test")
