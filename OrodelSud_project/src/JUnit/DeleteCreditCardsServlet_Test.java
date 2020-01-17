@@ -12,7 +12,7 @@ import javax.servlet.http.HttpSession;
 import Bean.ClienteBean;
 import Gestione_account.UserDAO;
 
-@WebServlet("/DeleteCreditCardsServlet")
+@WebServlet("/DeleteCreditCardsServlet_Test")
 public class DeleteCreditCardsServlet_Test extends HttpServlet{
 	private static final long serialVersionUID = 1L;
 

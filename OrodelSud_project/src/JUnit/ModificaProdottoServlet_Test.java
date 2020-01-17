@@ -4,6 +4,7 @@ import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 
 import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -12,7 +13,7 @@ import javax.servlet.http.Part;
 
 import Bean.ProdottoBean;
 import Gestione_catalogo.ProdottoDAO;
-
+@WebServlet("/ModificaProdottoServlet_Test")
 public class ModificaProdottoServlet_Test extends HttpServlet {
 
 	public ModificaProdottoServlet_Test() {

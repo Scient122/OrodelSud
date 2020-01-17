@@ -5,6 +5,8 @@ import java.sql.SQLException;
 import Gestione_ordini.EffettuazioneDAO;
 import junit.framework.TestCase;
 
+
+
 public class EffettuazioneDAO_Test extends TestCase {
 	
 	public EffettuazioneDAO_Test (String name) {
