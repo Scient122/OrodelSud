@@ -26,7 +26,7 @@ public class IndexServlet extends HttpServlet {
   
     public IndexServlet() {
         super();
-    } 
+    }
 
 	
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

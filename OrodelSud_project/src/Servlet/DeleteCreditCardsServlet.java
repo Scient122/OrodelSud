@@ -19,7 +19,7 @@ public class DeleteCreditCardsServlet extends HttpServlet {
 
 	public DeleteCreditCardsServlet() {
 		super();
-	}
+	} 
  
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
