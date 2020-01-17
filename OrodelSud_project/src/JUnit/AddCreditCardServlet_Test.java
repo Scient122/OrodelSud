@@ -20,9 +20,6 @@ public class AddCreditCardServlet_Test extends HttpServlet{
 
 	} 
 
-	public class AddCreditCardServlet extends HttpServlet {
-		private static final long serialVersionUID = 1L;
-
 		protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 			String numero = request.getParameter("carta");
 			String tipologia = request.getParameter("credito");
@@ -47,5 +44,3 @@ public class AddCreditCardServlet_Test extends HttpServlet{
 		}
 
 	}
-
-}

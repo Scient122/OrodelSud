@@ -1,3 +1,5 @@
+package JUnit;
+
 import java.io.IOException;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -17,7 +19,7 @@ public class RecensioneServlet_test extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
    
-    public RecensioneServlet() {
+    public RecensioneServlet_test() {
         super();
     }
 
@@ -29,8 +31,8 @@ public class RecensioneServlet_test extends HttpServlet {
 		String ricetta = request.getParameter("titolo");
 		String recensione = request.getParameter("textarea");
 		
-		RecensioneBean recensionebean = new RecensioneBean_stub();
-		RecensioneDAO interfaccia = new RecensioneDAO_stub();
+		RecensioneBean recensionebean = new RecensioneBean_Stub();
+		RecensioneDAO interfaccia = new RecensioneDAO_Stub();
 		recensionebean.setCommento(recensione);
 		recensionebean.setEmail_cliente(cliente.getEmail());
 		recensionebean.setTitolo_ricetta(ricetta);

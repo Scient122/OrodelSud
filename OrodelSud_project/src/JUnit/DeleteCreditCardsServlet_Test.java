@@ -21,8 +21,6 @@ public class DeleteCreditCardsServlet_Test extends HttpServlet{
 		super();
 	} 
  
-	public class DeleteCreditCardsServlet extends HttpServlet {
-
 		protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
 			String numero_carta = request.getParameter("numero_carta");
@@ -45,4 +43,3 @@ public class DeleteCreditCardsServlet_Test extends HttpServlet{
 			doGet(request, response);
 		}
 	}
-}
