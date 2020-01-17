@@ -33,7 +33,6 @@ public class ProdottoServlet extends HttpServlet {
 
 
 	public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		System.out.println("prodottoservlet");
 		ProdottoDAO interfaccia = new ProdottoDAO();
 		int contatore; 
 		int conteggio=0;
@@ -42,8 +41,7 @@ public class ProdottoServlet extends HttpServlet {
 		JSONObject risposta = new JSONObject();
 		HttpSession session = request.getSession();
 		AziendaBean azienda = (AziendaBean) session.getAttribute("aziendaBean");
-		System.out.println(azienda);
-		System.out.println(interfaccia);
+	
 
 		String destinazione="";
 		if (request.getParameter("admin")!=null) {
@@ -58,11 +56,9 @@ public class ProdottoServlet extends HttpServlet {
 				conteggio = interfaccia.conteggio();
 			}
 			else if (session.getAttribute("aziendaBean")!=null){
-				System.out.println(azienda.getNome());
-				System.out.println(interfaccia);
+				
 				conteggio = interfaccia.conteggio_azienda(azienda.getNome());
-				System.out.println(azienda.getNome());
-				System.out.println(conteggio);
+			
 			} else {
 				conteggio = interfaccia.conteggio();
 			}
