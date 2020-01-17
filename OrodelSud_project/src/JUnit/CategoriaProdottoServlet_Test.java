@@ -27,7 +27,7 @@ public class CategoriaProdottoServlet_Test extends HttpServlet {
 
 	public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		String categoria = request.getParameter("categoria");
-		ProdottoDAO interfaccia = new ProdottoDAO();
+		ProdottoDAO interfaccia = new ProdottoDAO_Stub();
 		int contatore; 
 		int conteggio=0;
 		String json = "";

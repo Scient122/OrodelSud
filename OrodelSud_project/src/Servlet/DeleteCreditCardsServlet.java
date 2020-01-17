@@ -12,31 +12,31 @@ import Bean.ClienteBean;
 import Gestione_account.UserDAO;
 
 
-@WebServlet("/AddCreditCardServlet")
-public class AddCreditCardServlet extends HttpServlet {
+@WebServlet("/DeleteCreditCardsServlet")
+public class DeleteCreditCardsServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
-	public AddCreditCardServlet() {
+
+	public DeleteCreditCardsServlet() {
 		super();
 	}
 
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		String numero = request.getParameter("carta");
-		String tipologia = request.getParameter("credito");
+
+		String numero_carta = request.getParameter("numero_carta");
 		HttpSession session = request.getSession();
 		ClienteBean cliente = (ClienteBean) session.getAttribute("userBean");
-		UserDAO interfaccia = new UserDAO();
-		String email = cliente.getEmail();
 
+		UserDAO interfaccia = new UserDAO();
 		try {
-			interfaccia.addcreditcards(numero, tipologia, email);
+			interfaccia.deletecreditcards(numero_carta);
+			cliente.deleteCarte_credito(numero_carta);
 		}
 		catch (Exception e) {
-
 			response.sendError(500, "Errore"+e);
 		}
-		cliente.setCarte_credito(numero, tipologia);
+
 		response.sendRedirect("Pagamento.jsp");
 	}
 
