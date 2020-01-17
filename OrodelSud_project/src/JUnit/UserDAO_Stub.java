@@ -3,7 +3,7 @@ import java.sql.*;
 import java.util.HashMap;
 
 import Bean.ClienteBean;
-import Model.DriverMaagerConnectionPool;
+import Connection.DriverMaagerConnectionPool;
 import Gestione_account.*;
 
 public class UserDAO_Stub extends UserDAO{

@@ -13,6 +13,7 @@ import javax.servlet.http.HttpSession;
 import Bean.AdminBean;
 import Bean.AziendaBean;
 import Bean.ClienteBean;
+import Connection.*;
 import Gestione_account.AdminDAO;
 import Gestione_account.AziendaDAO;
 import Gestione_account.UserDAO;
@@ -20,7 +21,6 @@ import Gestione_account.UserDAO;
 import java.sql.*;
 import java.sql.Date;
 import java.util.*;
-import Model.*;
 
 @WebServlet("/UpdateServlet")
 public class UpdateServlet extends HttpServlet {

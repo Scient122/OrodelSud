@@ -16,7 +16,7 @@ initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
 <title> Ricette per categoria </title>
 </head>
 <body>
-<%@page import="Model.*" %>
+<%@page import="Connection.*" %>
 <%@page import="Bean.*" %>
 <%@page import="java.util.*" %>
 <% ArrayList<RicettaBean> ricette = (ArrayList<RicettaBean>) request.getAttribute("ricette");%>

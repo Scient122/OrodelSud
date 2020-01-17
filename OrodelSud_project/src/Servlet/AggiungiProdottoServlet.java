@@ -10,8 +10,6 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import Model.DriverMaagerConnectionPool;
-
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.sql.Blob;
@@ -30,6 +28,7 @@ import javax.websocket.Encoder.BinaryStream;
 
 import Bean.AziendaBean;
 import Bean.ProdottoBean;
+import Connection.DriverMaagerConnectionPool;
 import Gestione_catalogo.ProdottoDAO;
 
 import javax.*;

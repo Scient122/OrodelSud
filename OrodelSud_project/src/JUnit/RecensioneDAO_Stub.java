@@ -7,8 +7,8 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 
 import Bean.RecensioneBean;
+import Connection.DriverMaagerConnectionPool;
 import Gestione_ricette.*;
-import Model.DriverMaagerConnectionPool;
 
 public class RecensioneDAO_Stub extends RecensioneDAO{
 	

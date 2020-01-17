@@ -4,8 +4,8 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
 import Bean.EffettuazioneBean;
+import Connection.DriverMaagerConnectionPool;
 import Gestione_ordini.*;
-import Model.DriverMaagerConnectionPool;
 
 public class EffettuazioneDAO_Stub extends EffettuazioneDAO{
 	

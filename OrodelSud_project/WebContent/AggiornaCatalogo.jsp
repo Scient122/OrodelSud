@@ -18,7 +18,7 @@ initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
 </head>
 
 <body>
-<%@page import="Model.*" %>
+<%@page import="Connection.*" %>
 <%@page import="java.util.*" %>
 <% if ((session.getAttribute("adminBean")==null) && (session.getAttribute("aziendaBean")==null))
 	response.sendRedirect("Login.jsp");%>

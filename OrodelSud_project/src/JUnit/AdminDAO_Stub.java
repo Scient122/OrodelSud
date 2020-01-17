@@ -7,7 +7,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 import Bean.AdminBean;
-import Model.DriverMaagerConnectionPool;
+import Connection.DriverMaagerConnectionPool;
 public class AdminDAO_Stub extends AdminDAO{
 public synchronized  AdminBean login(String email,String password) throws SQLException {
 		

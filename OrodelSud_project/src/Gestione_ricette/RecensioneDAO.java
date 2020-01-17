@@ -11,7 +11,7 @@ import java.util.ArrayList;
 
 import Bean.ProdottoBean;
 import Bean.RecensioneBean;
-import Model.DriverMaagerConnectionPool;
+import Connection.DriverMaagerConnectionPool;
 import Servlet.Utilities;
 
 public class RecensioneDAO {

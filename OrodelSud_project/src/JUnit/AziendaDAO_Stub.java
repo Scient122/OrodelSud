@@ -4,7 +4,7 @@ import java.sql.*;
 import java.util.HashMap;
 
 import Bean.AziendaBean;
-import Model.DriverMaagerConnectionPool;
+import Connection.DriverMaagerConnectionPool;
 public class AziendaDAO_Stub extends AziendaDAO{
 	
 	public synchronized  AziendaBean login(String email,String password) throws SQLException {

@@ -16,7 +16,7 @@ initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
 <jsp:include page="Header.jsp"/>
 
 
-<%@page import="Model.*" %>
+<%@page import="Connection.*" %>
 <%@page import="Bean.*" %>
 <%@page import="java.util.*" %>
 <% RicettaBean ricetta = (RicettaBean) request.getAttribute("Ricetta");

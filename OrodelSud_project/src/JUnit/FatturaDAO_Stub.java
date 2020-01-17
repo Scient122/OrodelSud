@@ -10,8 +10,8 @@ import java.util.ArrayList;
 import java.util.Random;
 
 import Bean.FatturaBean;
+import Connection.DriverMaagerConnectionPool;
 import Gestione_ordini.*;
-import Model.DriverMaagerConnectionPool;
 
 public class FatturaDAO_Stub extends FatturaDAO{
 	

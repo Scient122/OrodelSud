@@ -17,8 +17,8 @@ import javax.servlet.http.Part;
 
 import Bean.AziendaBean;
 import Bean.ProdottoBean;
+import Connection.DriverMaagerConnectionPool;
 import Gestione_catalogo.ProdottoDAO;
-import Model.DriverMaagerConnectionPool;
 
 @WebServlet("/AggiungiProdottoServlet_Test")
 @MultipartConfig

@@ -12,9 +12,9 @@ import javax.servlet.http.HttpServletResponse;
 
 import Bean.RecensioneBean;
 import Bean.RicettaBean;
+import Connection.*;
 import Gestione_ricette.RecensioneDAO;
 import Gestione_ricette.RicettaDAO;
-import Model.*;
 
 @WebServlet("/FinalRicettaServlet")
 public class FinalRicettaServlet extends HttpServlet {

@@ -9,8 +9,8 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 
 import Bean.RicettaBean;
+import Connection.DriverMaagerConnectionPool;
 import Gestione_ricette.*;
-import Model.DriverMaagerConnectionPool;
 import Servlet.Utilities;
 
 public class RicettaDAO_Stub extends RicettaDAO{

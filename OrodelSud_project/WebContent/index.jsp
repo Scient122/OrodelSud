@@ -17,7 +17,7 @@
 </head>
 <body>
 
-<%@page import="Model.*" %>
+<%@page import="Connection.*" %>
 <%@page import="Bean.*" %>
 <%@page import="java.util.*" %>
   

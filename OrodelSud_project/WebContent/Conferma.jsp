@@ -18,7 +18,7 @@ initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
 <body onload="check()">
 <jsp:include page="Header.jsp"/>
 
-<%@page import="Model.*" %>
+<%@page import="Connection.*" %>
 <%@page import="Bean.*" %>
 <%@page import="java.util.*" %>
 

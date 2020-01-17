@@ -43,7 +43,7 @@ function ridimensiona (img) {
 </script>
 
 <%@page import="Bean.*" %>
-<%@page import="Model.*" %>
+<%@page import="Connection.*" %>
 <%@page import="java.util.*" %>
 
 <%Gestione_catalogo.Carrello carrello=(Gestione_catalogo.Carrello) session.getAttribute("carrello");

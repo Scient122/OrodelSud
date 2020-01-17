@@ -5,13 +5,12 @@ import javax.servlet.*;
 import javax.servlet.annotation.*;
 import javax.servlet.http.*;
 
+import Connection.DriverMaagerConnectionPool;
 import Gestione_account.AdminDAO;
 import Gestione_account.AziendaDAO;
 import Gestione_account.UserDAO;
 
-import java.sql.*;
-
-import Model.DriverMaagerConnectionPool; 
+import java.sql.*; 
 
 @WebServlet("/CheckServlet")
 

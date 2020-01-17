@@ -2,13 +2,13 @@ package JUnit;
 import Bean.*;
 import Gestione_catalogo.*;
 import java.io.IOException;
-import Model.*;
 import java.io.InputStream;
 import java.sql.*;
 import java.sql.Date;
 import java.util.*;
 
 import Bean.ProdottoBean;
+import Connection.*;
 import Servlet.Utilities;
 
 public class ProdottoDAO_Stub extends ProdottoDAO{

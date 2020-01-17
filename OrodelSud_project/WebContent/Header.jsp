@@ -20,7 +20,7 @@ initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
 
 <body>
 
-<%@page import="Model.*"%>
+<%@page import="Connection.*"%>
 
 <%
 String appoggio="";

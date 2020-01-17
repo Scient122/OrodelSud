@@ -56,7 +56,7 @@ function ridimensiona (img) {
 
 </aside>
 
-<%@page import="Model.*" %>
+<%@page import="Connection.*" %>
 <% Bean.ProdottoBean prodotto = (Bean.ProdottoBean) request.getAttribute("Prodotto");%>
 <%if (session.getAttribute("carrello")==null) {
 	Gestione_catalogo.Carrello carrello = new Gestione_catalogo.Carrello();

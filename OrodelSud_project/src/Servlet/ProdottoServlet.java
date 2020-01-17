@@ -17,10 +17,10 @@ import org.json.*;
 
 import Bean.AziendaBean;
 import Bean.ProdottoBean;
+import Connection.*;
 import Gestione_catalogo.ProdottoDAO;
 
 import java.util.*;
-import Model.*;
 
 @WebServlet("/ProdottoServlet")
 public class ProdottoServlet extends HttpServlet {

@@ -16,7 +16,7 @@ import java.util.Random;
 import javax.sql.StatementEvent;
 
 import Bean.FatturaBean;
-import Model.DriverMaagerConnectionPool;
+import Connection.DriverMaagerConnectionPool;
 
 public class FatturaDAO {
 

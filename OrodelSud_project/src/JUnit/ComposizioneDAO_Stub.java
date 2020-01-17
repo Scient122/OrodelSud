@@ -7,8 +7,8 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 
 import Bean.ComposizioneBean;
+import Connection.DriverMaagerConnectionPool;
 import Gestione_ordini.*;
-import Model.DriverMaagerConnectionPool;
 
 public class ComposizioneDAO_Stub extends ComposizioneDAO{
 	

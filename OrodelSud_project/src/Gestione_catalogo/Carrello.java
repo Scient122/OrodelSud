@@ -2,7 +2,7 @@ package Gestione_catalogo;
 import java.util.*;
 
 import Bean.ProdottoBean;
-import Model.*;
+import Connection.*;
 
 public class Carrello {
 

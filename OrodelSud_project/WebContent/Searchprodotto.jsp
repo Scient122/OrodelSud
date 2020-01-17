@@ -18,7 +18,7 @@ initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
 </head>
 <body>
 <%@page import="Bean.*" %>
-<%@page import="Model.*" %>
+<%@page import="Connection.*" %>
 <%@page import="java.util.*" %>
 <%if (session.getAttribute("carrello")==null) {
 	Gestione_catalogo.Carrello carrello = new Gestione_catalogo.Carrello();

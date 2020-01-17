@@ -5,7 +5,7 @@ import java.io.*;
 import java.util.*;
 
 import Bean.RicettaBean;
-import Model.DriverMaagerConnectionPool;
+import Connection.DriverMaagerConnectionPool;
 import Servlet.Utilities;
 public class RicettaDAO {
 	
