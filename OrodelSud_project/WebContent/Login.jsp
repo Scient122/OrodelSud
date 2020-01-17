@@ -26,7 +26,7 @@ if(session.getAttribute("userBean")!=null || session.getAttribute("adminBean")!=
 
 
 <div id="login" align="center">
-<a href="Index.jsp">
+<a href="index.jsp">
 <img id="immagine" src="Immagini/Logoazzurrotagliato.png"> <br><br><br><br><br>
 </a>
 <h1 id="h1">Login</h1>
