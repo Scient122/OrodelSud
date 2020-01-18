@@ -77,12 +77,12 @@ function ridimensiona (img) {
 <p> - Conservazione: <%=prodotto.getConservazione() %> </p> <br>
 <p> - Produttore: <%=prodotto.getAzienda() %> </p> <br> 
 <form method="Post" action="ANCORANONLOSAPPIAMO" id="Quantita">
-<% if (session.getAttribute("aziendaBean")== null && session.getAttribute("adminBean")==null) { %>
+<% if (session.getAttribute("aziendaBean")== null && session.getAttribute("adminBean")==null && (prodotto.getQuantita_disponibili()>0)) { %>
 <p> - Seleziona le quantit&agrave;: <input type="number" onkeydown="return false" placeholder="" name="quantita" id="inputnumber" min="1" max="<%=prodotto.getQuantita_disponibili()%>"> <br>  </p>
 <% } %>
 </form>
 <br>
-<% if (session.getAttribute("aziendaBean")== null && session.getAttribute("adminBean")==null)  { %>
+<% if (session.getAttribute("aziendaBean")== null && session.getAttribute("adminBean")==null && (prodotto.getQuantita_disponibili()>0))  { %>
 <a> <button id="aggiungicarrello" onclick="animazione();aggiungi()" > <img src="Immagini/CarrelloProdotto.png"> Aggiungi al carrello </button></a>
 <% } %>
 
