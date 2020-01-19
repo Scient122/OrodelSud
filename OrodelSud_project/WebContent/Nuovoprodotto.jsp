@@ -49,7 +49,7 @@ if (session.getAttribute("aziendaBean")!=null) {
 
 <span>- Descrizione: </span> <br>
 <span class="modifcaspan"> Inserisci i nuovi dati </span> <br>
-<textarea class="inputtextarea" rows="5" cols="60" name="descrizione"></textarea><span id="descrizione"></span>
+<textarea class="inputtextarea" rows="5" cols="60" name="descrizione"></textarea><span id="descrizione" required></span>
 <br> <br>
 
 <span>- Prezzo base: </span><br>
@@ -64,12 +64,12 @@ if (session.getAttribute("aziendaBean")!=null) {
 
 <span>- Iva: </span> <br>
 <span class="modificaspan"> Inserisci i nuovi dati </span>
-<input class="inputtextarea" name="cambioiva" type="number"> <span id="quantitadisponibili"></span>
+<input class="inputtextarea" name="cambioiva" type="number" required> <span id="quantitadisponibili"></span>
 <br> <br>
 
 <span>- Conservazione: </span><br>
 <span class="modifcaspan"> Inserisci i nuovi dati </span> 
-<input class="inputtextarea" name="conservazione" type="text"> <span id="conservazione"></span>
+<input class="inputtextarea" name="conservazione" type="text" required> <span id="conservazione"></span>
 <br> <br>
 
 <span>- Categoria: </span> <br>

@@ -54,7 +54,7 @@ public class ComposizioneBean_Stub extends ComposizioneBean {
 		this.nome_prodotto = nome_prodotto;
 	}
 
-	private String codice_prodotto="01", numero_fattura="02", nome_prodotto="Pasta";
+	private String codice_prodotto="1", numero_fattura="2", nome_prodotto="Pasta";
 	private int quantita_acquistate=3, iva_acquisto=22;
 	private double prezzo_acquisto=20;
 	private Date data=Date.valueOf("2020-10-10");

@@ -20,7 +20,7 @@ public class RicettaDAO_Test extends TestCase{
 		try {
 			assertNotNull(interfaccia.LastRicetta(ricetta.getProvenienza()));
 			assertNotNull(interfaccia.categoria(ricetta.getCategoria()));
-			assertNotNull(interfaccia.Onericetta(ricetta.getTitolo()));
+			assertNotNull(interfaccia.Onericetta("Cannoli siciliani"));
 			assertNotNull(interfaccia.Provenienza(ricetta.getProvenienza()));
 		} catch (SQLException e) {
 			e.printStackTrace();

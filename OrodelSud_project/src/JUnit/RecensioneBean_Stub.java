@@ -42,6 +42,6 @@ public RecensioneBean_Stub() {
 		this.titolo_ricetta = titolo_ricetta;
 	}
 
-	private String commento="Ottima", email_cliente="marco@gmail.com", titolo_ricetta="Spaghetti";
+	private String commento="Ottima", email_cliente="marco@gmail.com", titolo_ricetta="Strazzate";
 
 }

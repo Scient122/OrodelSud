@@ -32,6 +32,6 @@ public class EffettuazioneBean_Stub extends EffettuazioneBean {
 
 
 
-	private String email="marco@gmai.com", numero="01";
+	private String email="marco@gmail.com", numero="10";
 	
 }

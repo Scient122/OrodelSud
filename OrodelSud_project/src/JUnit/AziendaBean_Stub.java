@@ -58,6 +58,6 @@ public class AziendaBean_Stub extends AziendaBean{
 		this.numero_di_telefono = numero_di_telefono;
 	}
 	
-	private String email="Azienda@gmail.com",password="azienda10",nome="Azienda",via="Via Ersilio",cap="10152",citta="Napoli",numero_civico="15", numero_di_telefono="081658741";
+	private String email="Azienda10@gmail.com",password="azienda10",nome="Azienda",via="Via Ersilio",cap="10152",citta="Napoli",numero_civico="15", numero_di_telefono="081658741";
 	
 }

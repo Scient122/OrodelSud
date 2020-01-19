@@ -116,9 +116,9 @@ public class ClienteBean_Stub extends ClienteBean{
     	this.punti=punti;
     }
     
-	private String email="cliente@gmail.com",password="cliente10",nome="Cliente",cognome="TestCliente",via="Via Castelluccio",cap="15789",citta="Salerno",numero_civico="18", numero_di_telefono="3698745123";
+	private String email="marco@gmail.com",password="marco10",nome="Marco",cognome="Sorrentino",via="Via Salierno",cap="12312",citta="Salerno",numero_civico="22", numero_di_telefono="3336965478";
 	private int punti=0;
-	private Date data_di_nascita=Date.valueOf("1989-10-06");
+	private Date data_di_nascita=Date.valueOf("1988-10-06");
 	private HashMap <String, String> carte_credito = new HashMap <String, String>() ;
 	
 }

@@ -16,12 +16,12 @@ public class ProdottoDAO_Test extends TestCase {
 		
 		try {
 			interfaccia.aggiunta(prodotto); 
-			assertNotNull(interfaccia.unprodotto(prodotto.getNome_prodotto()));
-			assertNotNull(interfaccia.categoriaprodotto(prodotto.getCategoria(), 1));
+			assertNotNull(interfaccia.unprodotto("Vesuvio"));
+			assertNotNull(interfaccia.categoriaprodotto("Vino", 1));
 			assertNotNull(interfaccia.prodottofferta(1));
-			assertNotNull(interfaccia.searchbar(1, prodotto.getNome_prodotto()));
+			assertNotNull(interfaccia.searchbar(1, "Vesuvio"));
 			assertTrue(interfaccia.aggiornamento("Descrizione", "Confezione da 1kg.", prodotto.getCodice()));
-			assertNotNull(interfaccia.unprodottocodice(prodotto.getCodice()));
+			assertNotNull(interfaccia.unprodottocodice("2"));
 			interfaccia.cancellazione(prodotto.getNome_prodotto());
 			} catch (Exception e){e.printStackTrace();}
 		

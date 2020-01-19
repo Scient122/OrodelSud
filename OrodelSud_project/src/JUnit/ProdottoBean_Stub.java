@@ -88,6 +88,7 @@ public ProdottoBean_Stub() {
 	private double prezzo_base=1.5, prezzo_totale=2.4;
 	private boolean offerta=false;
 	private String azienda="azienda";
+	private Blob immagine=null;
 
 	
 }

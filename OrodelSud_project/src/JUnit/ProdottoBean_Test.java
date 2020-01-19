@@ -30,8 +30,8 @@ public class ProdottoBean_Test extends TestCase {
 		assertEquals(prodotto.getIva(),22);
 		assertEquals(prodotto.getNome_prodotto(),"Spaghetti");
 		assertEquals(prodotto.isOfferta(),true);
-		assertEquals(prodotto.getPrezzo_base(),20);
-		assertEquals(prodotto.getPrezzo_totale(),30);
+		assertEquals(prodotto.getPrezzo_base(),20.0);
+		assertEquals(prodotto.getPrezzo_totale(),30.0);
 		assertEquals(prodotto.getQuantita_disponibili(),10);
 		
 	}
