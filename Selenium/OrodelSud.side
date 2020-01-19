@@ -13778,6 +13778,154 @@
       "targets": [],
       "value": ""
     }]
+  }, {
+    "id": "b228e516-25a6-44df-bb71-2802de3ef682",
+    "name": "AnnullamentoOrdine",
+    "commands": [{
+      "id": "22398c86-235f-478b-bc14-12ba724d71e4",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/OrodelSud_project/IndexServlet",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d290b990-5034-4f58-8293-e5f64f4d488a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ae2e27a5-b88d-4822-929e-ac9b9c42e694",
+      "comment": "",
+      "command": "click",
+      "target": "id=Login",
+      "targets": [
+        ["id=Login", "id"],
+        ["css=#Login", "css:finder"],
+        ["xpath=//button[@id='Login']", "xpath:attributes"],
+        ["xpath=//ul[@id='ul3s']/li[2]/button", "xpath:idRelative"],
+        ["xpath=//li[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "682b1cca-63ef-463c-a869-cd693400ecdb",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.input:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='login']/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "04283b70-95c4-4db7-8b79-7a03d34f86b1",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.input:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='login']/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "msorrentino5@gmail.com"
+    }, {
+      "id": "9a402dc4-6ece-4ebf-9fe5-d863c3b45de7",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.input:nth-child(10)", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='login']/form/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "msorrentino5"
+    }, {
+      "id": "b08dc866-7cd1-4993-bd1f-606fa598b310",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.input:nth-child(10)", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='login']/form/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "e8007449-4c7d-4483-b81c-06fa237fbc3f",
+      "comment": "",
+      "command": "click",
+      "target": "id=Login",
+      "targets": [
+        ["id=Login", "id"],
+        ["css=#Login", "css:finder"],
+        ["xpath=//button[@id='Login']", "xpath:attributes"],
+        ["xpath=//ul[@id='ul3s']/li/button", "xpath:idRelative"],
+        ["xpath=//li/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e31bae88-57b9-40be-9e47-207d05b2f510",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=I tuoi ordini",
+      "targets": [
+        ["linkText=I tuoi ordini", "linkText"],
+        ["css=#ituoirdini > a", "css:finder"],
+        ["xpath=//a[contains(text(),'I tuoi ordini')]", "xpath:link"],
+        ["xpath=//li[@id='ituoirdini']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'FatturaServlet')]", "xpath:href"],
+        ["xpath=//aside/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'I tuoi ordini')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b6fe65e-2b7b-4d02-8b21-25b7c9f4e684",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Annulla ordine",
+      "targets": [
+        ["linkText=Annulla ordine", "linkText"],
+        ["css=.bottone > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Annulla ordine')]", "xpath:link"],
+        ["xpath=//div[@id='divfatturegigante']/div/div/button/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'AnnullaOrdineServlet?numero=11')]", "xpath:href"],
+        ["xpath=//button/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Annulla ordine')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c7674b1-5b98-41d6-a497-62540013f007",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=I tuoi ordini",
+      "targets": [
+        ["linkText=I tuoi ordini", "linkText"],
+        ["css=#ituoirdini > a", "css:finder"],
+        ["xpath=//a[contains(text(),'I tuoi ordini')]", "xpath:link"],
+        ["xpath=//li[@id='ituoirdini']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'FatturaServlet')]", "xpath:href"],
+        ["xpath=//aside/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'I tuoi ordini')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "043ead27-5c52-4d4a-a3e1-8b134052dae1",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }]
   }],
   "suites": [{
     "id": "b5a4a469-e1cb-4a06-b80b-47446e5cb8c9",
