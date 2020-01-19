@@ -69,7 +69,7 @@ if (session.getAttribute("aziendaBean")!=null) {
 
 <span>- Conservazione: </span><br>
 <span class="modifcaspan"> Inserisci i nuovi dati </span> 
-<input class="inputtextarea" name="conservazione" type="text" required> <span id="conservazione"></span>
+<input class="inputtextarea" name="conservazione" type="text" required > <span id="conservazione"></span>
 <br> <br>
 
 <span>- Categoria: </span> <br>

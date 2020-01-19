@@ -24,7 +24,6 @@ public class ProdottoDAO_Test extends TestCase {
 			assertNotNull(interfaccia.unprodottocodice("2"));
 			interfaccia.cancellazione(prodotto.getNome_prodotto());
 			} catch (Exception e){e.printStackTrace();}
-		
 	}
 	
 	public static void main (String args[]) {

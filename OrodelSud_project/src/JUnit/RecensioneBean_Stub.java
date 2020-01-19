@@ -19,7 +19,6 @@ public RecensioneBean_Stub() {
 	}
 
 
-
 	public String getEmail_cliente() {
 		return email_cliente;
 	}

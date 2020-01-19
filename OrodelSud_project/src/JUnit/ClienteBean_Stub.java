@@ -14,6 +14,7 @@ public class ClienteBean_Stub extends ClienteBean{
 	public String getEmail() {
 		return email;
 	}
+	
 
 	public void setEmail(String email) {
 		this.email = email;

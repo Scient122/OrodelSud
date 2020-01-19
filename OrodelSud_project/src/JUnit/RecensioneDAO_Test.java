@@ -33,7 +33,6 @@ public class RecensioneDAO_Test extends TestCase{
 	public static void main (String args[]) {
 
 		junit.textui.TestRunner.run(RecensioneDAO_Test.class);
-
 	}	
 	
 }

@@ -8,7 +8,6 @@ import Servlet.Utilities;
 public class ProdottoBean_Stub extends ProdottoBean {
 
 public ProdottoBean_Stub() { 
-		
 	}
 	
 	public String getCodice() {

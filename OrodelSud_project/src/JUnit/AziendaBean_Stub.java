@@ -7,7 +7,6 @@ public class AziendaBean_Stub extends AziendaBean{
 	public AziendaBean_Stub () {
 		super();
 	}
-
 	public String getEmail() {
 		return email;
 	}

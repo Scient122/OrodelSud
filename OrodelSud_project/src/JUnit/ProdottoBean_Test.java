@@ -8,6 +8,7 @@ public class ProdottoBean_Test extends TestCase {
 		super(name);
 	}
 	
+	
 	public void testBean() {
 		ProdottoBean prodotto= new ProdottoBean();
 		prodotto.setAzienda("Lo spicchio");
