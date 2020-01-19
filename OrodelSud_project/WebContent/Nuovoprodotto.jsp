@@ -49,7 +49,7 @@ if (session.getAttribute("aziendaBean")!=null) {
 
 <span>- Descrizione: </span> <br>
 <span class="modifcaspan"> Inserisci i nuovi dati </span> <br>
-<textarea class="inputtextarea" rows="5" cols="60" name="descrizione"></textarea><span id="descrizione" required></span>
+<textarea class="inputtextarea" rows="5" cols="60" name="descrizione" required id="descrizionearea"></textarea><span id="descrizione"></span>
 <br> <br>
 
 <span>- Prezzo base: </span><br>
@@ -64,12 +64,12 @@ if (session.getAttribute("aziendaBean")!=null) {
 
 <span>- Iva: </span> <br>
 <span class="modificaspan"> Inserisci i nuovi dati </span>
-<input class="inputtextarea" name="cambioiva" type="number" required> <span id="quantitadisponibili"></span>
+<input class="inputtextarea" name="cambioiva" type="number" required onblur="allNumbers(this)" min=0 value=22> <span id="quantitadisponibili"></span>
 <br> <br>
 
 <span>- Conservazione: </span><br>
 <span class="modifcaspan"> Inserisci i nuovi dati </span> 
-<input class="inputtextarea" name="conservazione" type="text" required > <span id="conservazione"></span>
+<input class="inputtextarea" name="conservazione" type="text" required id="conservazionearea"> <span id="conservazione"></span>
 <br> <br>
 
 <span>- Categoria: </span> <br>
@@ -152,7 +152,7 @@ function control(){
 	var bottone=document.getElementById("pulsantechedeveuscire");
 	
 
-		if(allLetter(elementi[8])&&allNumbers(elementi[9])&&allNumbers(elementi[10])&&allLetter(elementi[13])) {
+		if(allLetter(elementi[8])&&allNumbers(elementi[9])&&allNumbers(elementi[10])&&allLetter(elementi[13])&& $("#descrizionearea").val()!="" && $("#conservazionearea").val()!="") {
 			$("#pulsantechedeveuscire").show();
 		}
 	else{

@@ -58,7 +58,10 @@ public class AggiungiProdottoServlet extends HttpServlet {
 	
 		HttpSession session = request.getSession();
 		AziendaBean azienda = (AziendaBean) session.getAttribute("aziendaBean");
-		String nome_azienda = azienda.getNome();
+		
+		String nome_azienda = "";
+		
+		if (azienda!=null) { azienda.getNome(); }
 		
 		int codice;
 		ProdottoDAO interfaccia = new ProdottoDAO();
